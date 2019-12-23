@@ -24,8 +24,9 @@ We wanted to test if their is a correlation between BM and Systolic and Diastoli
 
 #### Technologies
 
-- Jupytper Notebook
-- Technology 2
+- Juypter Notebook
+- Postgres SQL
+- Python
 
 [Back To The Top](#read-me-template)
 
