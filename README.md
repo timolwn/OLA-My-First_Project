@@ -1,6 +1,6 @@
 # Read Me Template
 
-![http://www.wisegeek.net/what-is-a-blood-pressure-machine.htm#pulse-and-blood-pressure-monitor](project-image-url)
+![Project Image](http://www.wisegeek.net/what-is-a-blood-pressure-machine.htm#pulse-and-blood-pressure-monitor)
 
 > This is a ReadMe template to help save you time and effort.
 
