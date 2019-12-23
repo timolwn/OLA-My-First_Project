@@ -18,8 +18,7 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
-We wanted to test if their is a correlation between BM and Systolic and Diastolic Blood Pressure. The data set were taken from the 
-
+This is a project we chosed to do a for class assignment. We decided we wanted to use a linear regession method on a data set from NCD Risk factor collaboration. With the data set we found we  correlation between blood pressure and Body Mass Index(BMI) from every country in the world from the year 1890 to todays current year. Since analyzing each would take a long time, we decided to pick the year 1996 
 
 
 #### Technologies
