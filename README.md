@@ -18,12 +18,13 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
+We wanted to test if their is a correlation between BM and Systolic and Diastolic Blood Pressure. The data set were taken from the 
 
-Creating ReadMe's for your Github repository can be tedious.  I hope this template can save you time and effort as well as provide you with some consistency across your projects.
+
 
 #### Technologies
 
-- Technology 1
+- Jupytper Notebook
 - Technology 2
 
 [Back To The Top](#read-me-template)
@@ -34,12 +35,14 @@ Creating ReadMe's for your Github repository can be tedious.  I hope this templa
 
 #### Installation
 
-
+conda install statsmodels
 
 #### API Reference
 
 ```html
-    <p>dummy code</p>
+   import numpy as np
+   import statsmodels.api as sm
+   import statsmodels.formula.api as smf
 ```
 [Back To The Top](#read-me-template)
 
