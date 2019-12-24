@@ -56,15 +56,18 @@ results = smf.ols('Lottery ~ Literacy + np.log(Pop1831)', data=dat).fit()
 ---
 
 ## References
-[Back To The Top](#read-me-template)
 http://www.ncdrisc.org/data-downloads-blood-pressure.html
+
+[Back To The Top](#read-me-template)
+
+
 ---
 
 ## License
 
 MIT License
 
-Copyright (c) [2017] [James Q Quick]
+Copyright (c) [2019] []
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
