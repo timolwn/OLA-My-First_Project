@@ -1,6 +1,6 @@
 # Regression between BMI and Blood Pressure
 
-![Project Image](www.wisegeek.net/what-is-a-blood-pressure-machine.htm#pulse-and-blood-pressure-monitor)
+![Project Image]()
 
 > 
 
@@ -57,6 +57,7 @@ results = smf.ols('Lottery ~ Literacy + np.log(Pop1831)', data=dat).fit()
 
 ## References
 http://www.ncdrisc.org/data-downloads-blood-pressure.html
+http://www.ncdrisc.org/data-downloads-adiposity-ado.html
 
 [Back To The Top](#read-me-template)
 
