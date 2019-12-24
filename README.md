@@ -1,8 +1,8 @@
-# Read Me Template
+# Regression between BMI and Blood Pressure
 
-![Project Image](http://www.wisegeek.net/what-is-a-blood-pressure-machine.htm#pulse-and-blood-pressure-monitor)
+![Project Image](www.wisegeek.net/what-is-a-blood-pressure-machine.htm#pulse-and-blood-pressure-monitor)
 
-> This is a ReadMe template to help save you time and effort.
+> 
 
 ---
 
@@ -18,14 +18,14 @@ You're sections headers will be used to reference location of destination.
 ---
 
 ## Description
-This is a project we chosed to do a for class assignment. We decided we wanted to use a linear regession method on a data set from NCD Risk factor collaboration. With the data set we found we  correlation between blood pressure and Body Mass Index(BMI) from every country in the world from the year 1890 to todays current year. Since analyzing each would take a long time, we decided to pick the year 1996 
+This is a project we chose to do for a class assignment. We decided we wanted to use a linear regression method on a data set from NCD Risk factor collaboration. With the data set, we wanted to find if there is a correlation between blood pressure and Body Mass Index(BMI) from every country in the world from the year 1890 to the year 2000. Since analyzing each year would take a long time, we decided to use SQL to extract only the year 1996. We tested the R^2 and shown a regression line to give support to our hypothesis of BMI and Blood Pressure. 
 
 
 #### Technologies
 
 - Juypter Notebook
 - Postgres SQL
-- Python
+- Anaconda
 
 [Back To The Top](#read-me-template)
 
@@ -43,6 +43,13 @@ conda install statsmodels
    import numpy as np
    import statsmodels.api as sm
    import statsmodels.formula.api as smf
+
+# Load data
+dat = sm.datasets.get_rdataset("Guerry", "HistData").data
+
+# Fit regression model (using the natural log of one of the regressors)
+results = smf.ols('Lottery ~ Literacy + np.log(Pop1831)', data=dat).fit()
+
 ```
 [Back To The Top](#read-me-template)
 
@@ -83,7 +90,7 @@ SOFTWARE.
 
 ## Author Info
 
-- Twitter - [@jamesqquick](https://twitter.com/jamesqquick)
-- Website - [James Q Quick](https://jamesqquick.com)
+- Linkedin - [Timothy Olawuni](www.linkedin.com/in/timothyolawuni)
+- Linkedin - [Alex De Mouy](www.linkedin.com/in/alexdemouy)
 
 [Back To The Top](#read-me-template)
