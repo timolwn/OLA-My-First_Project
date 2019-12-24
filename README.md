@@ -56,8 +56,8 @@ results = smf.ols('Lottery ~ Literacy + np.log(Pop1831)', data=dat).fit()
 ---
 
 ## References
-http://www.ncdrisc.org/data-downloads-blood-pressure.html
-http://www.ncdrisc.org/data-downloads-adiposity-ado.html
+- http://www.ncdrisc.org/data-downloads-blood-pressure.html
+- http://www.ncdrisc.org/data-downloads-adiposity-ado.html
 
 [Back To The Top](#read-me-template)
 
