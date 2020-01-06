@@ -24,7 +24,7 @@ This is a project we chose to do for a class assignment. We decided we wanted to
 #### Technologies
 
 - Juypter Notebook
-- Postgres SQL
+- PostgreSQL
 - Anaconda
 
 [Back To The Top](#read-me-template)
